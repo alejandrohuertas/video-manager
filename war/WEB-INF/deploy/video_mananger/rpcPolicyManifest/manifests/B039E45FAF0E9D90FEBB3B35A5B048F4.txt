@@ -1,0 +1,2 @@
+serviceClass: com.video.manager.client.GreetingService
+path: 5933AA4385BC16E58A15CB14F2D2CFF9.gwt.rpc
