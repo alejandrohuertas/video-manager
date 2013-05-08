@@ -11,6 +11,14 @@ public class Video {
     private Double timeInSecounds;
     
     private String genre;
+    
+    private String artistName;
+    
+    public Video(String youtubeId, String name, String artistName){
+	this.youtubeId = youtubeId;
+	this.name=name;
+	this.artistName = artistName;
+    }
 
     public Double getTimeInSecounds() {
 	return timeInSecounds;
@@ -50,6 +58,14 @@ public class Video {
 
     public void setGenre(String genre) {
 	this.genre = genre;
+    }
+
+    public String getArtistName() {
+	return artistName;
+    }
+
+    public void setArtistName(String artistName) {
+	this.artistName = artistName;
     }
     
     
